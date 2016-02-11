@@ -1,0 +1,14 @@
+
+body{
+  background-color: #666666;
+}
+
+#container {
+    background-color: #fff;
+    width: 800px;
+  }
+
+p {
+  color: #675944;
+  font-family: Helvetica, Arial, sans-serif;
+}
