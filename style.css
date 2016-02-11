@@ -22,3 +22,19 @@ p {
   float:right;
   width: 400px;
 }
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  float:left;
+}
+
+#nav a:link, #nav a:visited {
+  font-weight: bold;
+  text-align:center;
+  
+}
