@@ -1,22 +1,24 @@
 
 body{
-  background-color: #666666;
+  background-color: #ccffee;
 }
 
 #container {
-    background-color: #fff;
+    background-color: #ccffee;
+    font-family: Georgia, "Times New Roman",serif;
     width: 800px;
     margin:0 auto;
   }
 
 p {
-  color: #675944;
-  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 #photo {
   float:left;
   width: 400px;
+  border-style: none;
 }
 #main {
   float:right;
@@ -31,10 +33,22 @@ p {
 
 #nav li {
   float:left;
+  padding-bottom: 15px;
+
 }
 
 #nav a:link, #nav a:visited {
   font-weight: bold;
   text-align:center;
-  
+  text-decoration: none;
+  padding: 4px;
+	color: #fff;
+	background-color: #696969;
+	display: block;
+	width: 125px;
+
+}
+
+#nav a:hover, #nav a:active {
+	background-color: #D3D3D3;
 }
